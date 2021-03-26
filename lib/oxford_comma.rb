@@ -9,6 +9,6 @@ def oxford_comma(array)
       array.push("and #{last_element_of_array}")
       array.join(", ");
       
-      #remove the last element in the array, then push "and + the last element removed" to the end of the array, and then seperate each element with a " , "
+      #remove the last element in the array, then push "and + the last element removed" to the end of the array, and then seperate each element with a comma " , "
   end
 end
